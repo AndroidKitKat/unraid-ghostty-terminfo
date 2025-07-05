@@ -22,8 +22,8 @@ rm -f /tmp/ghostty.terminfo
 <INLINE>
 echo "Removing ghostty and xterm-ghostty terminfo..."
 for dir in /usr/share/terminfo /lib/terminfo /etc/terminfo; do
-  [ -d "$dir/g" ] && rm -f "$dir/g/ghostty"
-  [ -d "$dir/x" ] && rm -f "$dir/x/xterm-ghostty"
+  [ -d "$dir/g" ] &amp;&amp; rm -f "$dir/g/ghostty"
+  [ -d "$dir/x" ] &amp;&amp; rm -f "$dir/x/xterm-ghostty"
 done
 </INLINE>
 </FILE>
