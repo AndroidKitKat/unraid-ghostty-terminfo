@@ -1,25 +1,13 @@
 <?xml version='1.0' standalone='yes'?>
-<!DOCTYPE PLUGIN [
-<!ENTITY name      "ghostty-terminfo">
-<!ENTITY author    "AndroidKitKat">
-<!ENTITY version   "1.0.0">
-<!ENTITY gitURL    "https://raw.githubusercontent.com/AndroidKitKat/unraid-ghostty-terminfo/main">
-<!ENTITY pluginURL "&gitURL;/ghostty-terminfo.plg">
-]>
-<PLUGIN name="&name;"
-        author="&author;"
-        version="&version;"
-        pluginURL="&pluginURL;"
+<PLUGIN name="ghostty-terminfo"
+        author="AndroidKitKat"
+        version="1.0.0"
+        pluginURL="https://raw.githubusercontent.com/AndroidKitKat/unraid-ghostty-terminfo/main/ghostty-terminfo.plg"
         min="6.12.0"
         support="https://github.com/AndroidKitKat/unraid-ghostty-terminfo">
 
-<CHANGES>
-- Minimal version: installs ghostty terminfo with tic.
-- Now also removes xterm-ghostty terminfo on uninstall.
-</CHANGES>
-
 <FILE Name="/tmp/ghostty.terminfo">
-<URL>&gitURL;/resources/ghostty.terminfo</URL>
+<URL>https://raw.githubusercontent.com/AndroidKitKat/unraid-ghostty-terminfo/main/resources/ghostty.terminfo</URL>
 </FILE>
 
 <FILE Run="/bin/bash">
