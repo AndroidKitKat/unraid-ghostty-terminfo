@@ -1,7 +1,7 @@
 <?xml version='1.0' standalone='yes'?>
 <PLUGIN name="ghostty-terminfo"
         author="AndroidKitKat"
-        version="1.0.0"
+        version="1.1.3"
         pluginURL="https://raw.githubusercontent.com/AndroidKitKat/unraid-ghostty-terminfo/main/ghostty-terminfo.plg"
         min="6.12.0"
         support="https://github.com/AndroidKitKat/unraid-ghostty-terminfo">
